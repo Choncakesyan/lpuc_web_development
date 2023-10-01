@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0; /* Remove the default margin */
+    padding: 0;
+    display: flex;
+    flex-direction: row; /* Set the main direction to row */
+    min-height: 100vh;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+
+.header {
+    background-image: url('images/cyberpunk.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* Remove background-color: #ccc; */
+    color: #000;
+    padding: 20px 0;
+    text-align: middle;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.header h1 {
+    font-family: 'Algerian';
+    color: #00ffff;   
+    margin: 0;
+    font-size: 36px;
+    text-align: center;
+    text-shadow: 2px 2px yellow;
+}
+
+.header p {
+    font-family: 'Algerian';
+    color: #00ffff;
+    margin: 10px 0;
+    font-size: 18px;
+    text-shadow: 1px 1px yellow;
+}
+
+.content {
+    background-image: url('images/cyberpunk.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* Remove background-color: #ccc; */
+    flex: 2;
+    padding: 20px;
+}
+
+.menu {
+    background-color: #333;
+    text-align: left;
+    padding: 20px;
+    width: 200px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li {
+    margin: 10px 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #888; /* Gray color for the text */
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+}
+
+.menu a:hover {
+    color: #fff; /* Change the text color on hover */
+}
+
+.popup-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.popup-menu .popup-options {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    color: #000;
+    padding: 20px; /* Increase the padding for more space */
+    border-radius: 10px; /* Increase border radius for a larger border */
+    white-space: nowrap; /* Add this property to prevent wrapping */
+    width: 175px; /* Increase the width for a wider popup */
+    border: 2px solid #000; /* Increase the border thickness */
+}
+
+.popup-menu .popup-options ul {
+    padding: 0;
+    margin: 0; /* Remove default margin */
+    list-style-type: none; /* Remove bullets */
+}
+
+.popup-menu .popup-options li {
+    margin: 10px 0;
+}
+
+.popup-menu:hover .popup-options {
+    display: block;
+}
+
+.popup-menu a:hover {
+    color: #00ffff;
+}
+
+.popup {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px; /* Add margin to separate the logo from the text */
+}
+
+.logo img {
+    max-width: 100%; /* Ensure the logo image fits within the container */
+    height: 200px;
+}

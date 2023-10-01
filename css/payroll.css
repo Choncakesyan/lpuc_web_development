@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/that.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    background-color: #888;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    background-image: url('images/that.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ccc;
+    border: 1px solid #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: left;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.column {
+    flex: 1;
+    margin-right: 2%;
+}
+
+.column:last-child {
+    margin-right: 0;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black; /* Add this line to set the black border */
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: #d8d8d8;
+}
+
+.picture-box {
+    float: right;
+    margin-top: 5px;
+    margin-right: 20px; /* Adjust the margin as needed */
+    width: 100px; /* Adjust the width as needed */
+}
+
+.logo-img {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Make the image fit the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.search-button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Buttons */
+.blue-button{
+    background-color: #0074cc;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.green-button{
+    background-color: #00cc00;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.yellow-button {
+    background-color: #ffc107;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.image-container {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+
+/* Style for the image */
+.image-container img {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100px; /* Adjust the image width as needed */
+    height: 100px; /* Adjust the image height as needed */
+}
+
+/* Style for the "Choose File" button */
+.file-input {
+    display: block;
+    margin-top: 10px;
+}
+.summary-income input[type="text"] {
+    background-color: #f0f0f0;
+    pointer-events: none;
+    color: #666; /* Change text color to gray */
+}
+.file-input {
+    display: block;
+    margin-top: 10px;
+}

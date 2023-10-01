@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/that.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-image: url('images/that.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fff;
+    border: 2px solid #000;
+    padding: 20px 10px; /* Add 10px padding top and bottom, 20px padding left and right */
+    border-radius: 3px;
+}
+
+/* Additional styling for the form headers */
+.a-form h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 47px;
+    font-family: Algerian;
+    color: black;
+}
+
+/* Styling for the picture box */
+.a-form .picture-box {
+    float: right;
+    margin-top: 5px;
+    margin-right: 20px; /* Adjust the margin as needed */
+    width: 100px; /* Adjust the width as needed */
+    border: 3px solid #000; /* Add a 3px black border */
+    border-radius: 5px;
+}
+
+/* Styling for the logo image */
+.a-form .logo-img {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Make the image fit the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Styling for the file upload box */
+.a-form #pic-box {
+    width: 170px;
+    height: 150px;
+    overflow: hidden;
+    margin-top: 7px;
+    margin-left: 5px;
+    background: none;
+    border: 10px solid #000;
+}
+
+/* Styling for the file input */
+.a-form input[type="file"] {
+    margin-top: 10px;
+    text-align: center;
+}
